@@ -53,13 +53,13 @@ const developer = {
 };
 ```
 
-Sou desenvolvedor Full Stack, formado em **Análise e Desenvolvimento de Sistemas** e pós-graduado em **Desenvolvimento de Sistemas em Java**.
+Sou **Desenvolvedor Full Stack**, formado em **Análise e Desenvolvimento de Sistemas** e pós-graduado em **Desenvolvimento de Sistemas em Java**.
 
-Minha principal stack atualmente é **Next.js + TypeScript + Supabase + PostgreSQL**, trabalhando com aplicações que envolvem autenticação, autorização, banco de dados, APIs e regras de acesso.
+Minha principal stack atualmente é **Next.js + TypeScript + Supabase + PostgreSQL**, trabalhando em aplicações que envolvem autenticação, autorização, banco de dados, APIs e regras de acesso.
 
-Minha experiência com sistemas reais em produção aumentou meu interesse por entender o que acontece além da interface: **como os dados são protegidos, como permissões são aplicadas, como alterações no banco são versionadas e como evitar que mudanças aparentemente simples causem problemas em produção**.
+Minha experiência com sistemas reais em produção aumentou meu interesse por entender o que acontece além da interface: **como os dados são protegidos, como permissões são aplicadas, como alterações no banco são versionadas e como reduzir riscos quando uma aplicação evolui**.
 
-Também desenvolvo e estudo soluções utilizando **Java e Spring Boot**, inclusive em projetos que combinam frontend Next.js com backend Java.
+Também desenvolvo e estudo soluções utilizando **Java e Spring Boot**, inclusive em projetos que combinam aplicações Next.js com backends Java.
 
 ---
 
@@ -155,22 +155,24 @@ Application
 
 </p>
 
-O projeto está sendo desenvolvido como uma estrutura reutilizável para futuros sistemas, concentrando práticas relacionadas a:
+Projeto em desenvolvimento criado como uma estrutura reutilizável para futuros sistemas SaaS.
+
+O objetivo é concentrar práticas relacionadas a:
 
 * autenticação e autorização;
 * Supabase Auth;
 * PostgreSQL;
-* Row Level Security;
-* policies;
-* migrations;
+* Row Level Security — RLS;
+* policies de acesso;
+* migrations e versionamento do banco;
 * Server Actions;
 * validação de dados;
 * rate limiting;
-* separação entre client e server;
-* organização de variáveis de ambiente;
-* controles de segurança para aplicações SaaS.
+* separação entre operações client-side e server-side;
+* organização de variáveis de ambiente e secrets;
+* controles de segurança aplicados à arquitetura SaaS.
 
-**Objetivo:** reduzir a necessidade de reconstruir e revisar toda a infraestrutura de segurança a cada novo projeto.
+**Objetivo:** reduzir a necessidade de reconstruir e revisar toda a infraestrutura básica de segurança a cada novo projeto.
 
 [**→ Ver projeto**](https://github.com/JTrallii/projeto-base)
 
@@ -189,7 +191,7 @@ O projeto está sendo desenvolvido como uma estrutura reutilizável para futuros
 │      Frontend       │
 └──────────┬──────────┘
            │
-           │ API
+           │ REST API
            ▼
 ┌─────────────────────┐
 │     Spring Boot     │
@@ -214,7 +216,7 @@ O projeto está sendo desenvolvido como uma estrutura reutilizável para futuros
 
 </p>
 
-Projeto utilizado também para aprofundar a integração entre aplicações **Next.js** e backends desenvolvidos com **Java/Spring Boot**.
+Projeto utilizado também para aprofundar conhecimentos na integração entre aplicações **Next.js** e backends desenvolvidos com **Java/Spring Boot**, trabalhando conceitos como APIs REST, autenticação, persistência de dados e migrations.
 
 [**→ Ver projeto**](https://github.com/JTrallii/fluxo-financeiro)
 
@@ -245,7 +247,7 @@ architecture:
   production_safety: true
 ```
 
-Tenho buscado entender não apenas **como implementar uma funcionalidade**, mas quais são as consequências dela para o restante da aplicação.
+Tenho buscado entender não apenas **como implementar uma funcionalidade**, mas também quais consequências uma alteração pode gerar para autenticação, banco de dados, regras de acesso e demais partes da aplicação.
 
 ---
 
@@ -253,6 +255,7 @@ Tenho buscado entender não apenas **como implementar uma funcionalidade**, mas 
 
 <table>
 <tr>
+
 <td valign="top" width="50%">
 
 ### Frontend
@@ -276,12 +279,15 @@ Tenho buscado entender não apenas **como implementar uma funcionalidade**, mas 
 * REST APIs
 * Server Actions
 * Authentication
+* Authorization
 
 </td>
+
 </tr>
 
 <tr>
-<td valign="top">
+
+<td valign="top" width="50%">
 
 ### Dados
 
@@ -289,12 +295,12 @@ Tenho buscado entender não apenas **como implementar uma funcionalidade**, mas 
 * Supabase
 * SQL
 * Database Migrations
-* RLS
+* Row Level Security
 * Data Modeling
 
 </td>
 
-<td valign="top">
+<td valign="top" width="50%">
 
 ### Ferramentas
 
@@ -306,6 +312,7 @@ Tenho buscado entender não apenas **como implementar uma funcionalidade**, mas 
 * IntelliJ IDEA
 
 </td>
+
 </tr>
 </table>
 
@@ -327,17 +334,15 @@ jason@dev:~$ current-focus
 
 ---
 
-
-
 <div align="center">
 
 ### `while (learning) { build(); understand(); improve(); }`
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jason_Tralli-0A66C2?style=flat-square\&logo=linkedin)](https://www.linkedin.com/in/jasontralliti/)
-[![GitHub](https://img.shields.io/badge/GitHub-JTrallii-181717?style=flat-square\&logo=github)](https://github.com/JTrallii)
-[![Email](https://img.shields.io/badge/Email-jtrallii%40live.com-333333?style=flat-square\&logo=microsoftoutlook)](mailto:jtrallii@live.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jason_Tralli-0A66C2?style=flat-square\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/jasontralliti/)
+[![GitHub](https://img.shields.io/badge/GitHub-JTrallii-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/JTrallii)
+[![Email](https://img.shields.io/badge/Email-jtrallii%40live.com-333333?style=flat-square\&logo=microsoftoutlook\&logoColor=white)](mailto:jtrallii@live.com)
 
 <br/><br/>
 
