@@ -327,23 +327,7 @@ jason@dev:~$ current-focus
 
 ---
 
-# `// github.activity`
 
-<div align="center">
-
-<img
-height="170"
-src="https://github-readme-stats.vercel.app/api?username=JTrallii&show_icons=true&hide_border=true&theme=transparent&locale=pt-br"
-/>
-
-<img
-height="170"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=JTrallii&layout=compact&hide_border=true&theme=transparent&langs_count=6"
-/>
-
-</div>
-
----
 
 <div align="center">
 
